@@ -1,0 +1,31 @@
+Savoir
+=========
+
+
+Description
+-----------
+
+Savoir is JsonRPC wrapper for Multichain
+Its heavy based on [python-bitcoinrpc](https://github.com/jgarzik/python-bitcoinrpc)
+but adapted for Multichain server, and replacing the httplib by
+[requests](http://docs.python-requests.org/en/master/)
+
+Installation
+----------
+
+Savoir can be installed from
+[PyPi](https://pypi.python.org/pypi) using
+[pip](https://pypi.python.org/pypi/pip). Enter the following command
+into terminal:
+
+    pip install savoir
+
+Alternatively you can clone this public repository by entering the following
+command into terminal.
+
+    git clone https://github.com/dxmarkets/savoir
+
+License
+-------
+
+This package is distributed under BSD License.
