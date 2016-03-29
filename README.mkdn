@@ -29,3 +29,4 @@ License
 -------
 
 This package is distributed under BSD License.
+See [LICENSE](https://github.com/DXMarkets/Savoir/blob/master/LICENSE)
