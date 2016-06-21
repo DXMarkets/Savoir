@@ -35,6 +35,7 @@ Once you've download the code you should install needed libs
 Finally just use the [multichain api documentacion](http://www.multichain.com/developers/json-rpc-api/) and make calls to the wrapper.
 Remember to replace the rpc variables with the information of your specific chain
 
+    ```python
     import Savoir
     rpcuser = 'multichainrpc'
     rpcpasswd = 'YoUrLoNgRpCpAsSwOrD'
@@ -44,6 +45,7 @@ Remember to replace the rpc variables with the information of your specific chai
 
     api = Savoir(rpcuser, rpcpasswd, rcphost, rpcport, chainname)
     api.getinfo()
+    ```
 
 License
 -------
