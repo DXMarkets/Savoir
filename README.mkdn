@@ -30,7 +30,7 @@ Usage
 
 Once you've download the code you should install needed libs
 
-    pip install -r requirements.txt
+    sudo pip install -r requirements.txt
 
 Finally just use the [multichain api documentacion](http://www.multichain.com/developers/json-rpc-api/) and make calls to the wrapper.
 Remember to replace the rpc variables with the information of your specific chain
@@ -43,7 +43,7 @@ rpchost = 'localhost'
 rpcpport = '22335'
 chainname = 'myChain'
 
-api = Savoir(rpcuser, rpcpasswd, rcphost, rpcport, chainname)
+api = Savoir(rpcuser, rpcpasswd, rpchost, rpcport, chainname)
 api.getinfo()
 ```
 
