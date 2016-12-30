@@ -36,7 +36,7 @@ Finally just use the [multichain api documentacion](http://www.multichain.com/de
 Remember to replace the rpc variables with the information of your specific chain
 
 ```python
-import Savoir
+from Savoir import Savoir
 rpcuser = 'multichainrpc'
 rpcpasswd = 'YoUrLoNgRpCpAsSwOrD'
 rpchost = 'localhost'
