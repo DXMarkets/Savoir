@@ -13,7 +13,7 @@ requires = ['']
 
 
 setup(name='Savoir',
-    version='1.0.1',
+    version='1.0.3',
     description='A python wrapper for Multichain Json-RPC API ',
     long_description=read('README.mkdn'),
     license="BSD",
@@ -25,5 +25,4 @@ setup(name='Savoir',
     install_requires=[
         'requests',
     ],
-    install_requires=requires,
     )

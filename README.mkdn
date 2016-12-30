@@ -40,7 +40,7 @@ import Savoir
 rpcuser = 'multichainrpc'
 rpcpasswd = 'YoUrLoNgRpCpAsSwOrD'
 rpchost = 'localhost'
-rpcpport = '22335'
+rpcport = '22335'
 chainname = 'myChain'
 
 api = Savoir(rpcuser, rpcpasswd, rpchost, rpcport, chainname)
