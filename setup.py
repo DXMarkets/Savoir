@@ -22,5 +22,8 @@ setup(name='Savoir',
     url='https://github.com/DXMarkets/Savoir',
     keywords='multichain python blockchain',
     packages=find_packages(),
+    install_requires=[
+        'requests',
+    ],
     install_requires=requires,
     )
