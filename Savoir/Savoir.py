@@ -17,14 +17,14 @@ class Savoir():
         chainname,
         rpc_call=None
     ):
-        self.__rpcuser = rpcuser.encode('utf-8')
-        self.__rpcpasswd = rpcpasswd.encode('utf-8')
+        self.__rpcuser = rpcuser
+        self.__rpcpasswd = rpcpasswd
         self.__rpchost = rpchost
         self.__rpcport = rpcport
         self.__chainname = chainname
         self.__auth_header = ' '.join(
-            ['Basic', b64encode(':'.join([self.__rpcuser, self.__rpcpasswd]))]
-            )
+            ['Basic', b64encode(':'.join([rpcuser, rpcpasswd]).encode()).decode()]
+        )
         self.__headers = {'Host': self.__rpchost,
             'User-Agent': 'Savoir v0.1',
             'Authorization': self.__auth_header,

@@ -13,14 +13,14 @@ requires = ['']
 
 
 setup(name='Savoir',
-    version='1.0.3',
+    version='1.0.5',
     description='A python wrapper for Multichain Json-RPC API ',
     long_description=read('README.mkdn'),
     license="BSD",
     author='Federico Cardoso',
     author_email='federico.cardoso@dxmarkets.com',
     url='https://github.com/DXMarkets/Savoir',
-    keywords='multichain python blockchain',
+    keywords='multichain python blockchain jsonrpc',
     packages=find_packages(),
     install_requires=[
         'requests',
