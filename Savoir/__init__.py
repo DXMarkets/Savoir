@@ -1,2 +1,2 @@
 # -*- coding: utf-8 -*-
-from Savoir.Savoir import *
+from Savoir import *
